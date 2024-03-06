@@ -8,6 +8,7 @@ public class DataOutputsStream {
         DataOutputStream data = new DataOutputStream(file);
         data.writeInt(65);
         data.write('a');
+        data.write(34);
         data.flush();
         data.close();
         System.out.println("Succcess...");

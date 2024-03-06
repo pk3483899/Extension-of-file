@@ -15,7 +15,7 @@ public class ByteArrayOutputStreams {
         bout.writeTo(fout2);
 
         bout.flush();
-        bout.close();//has no effect
+        bout.close();
         System.out.println("Success...");
     }
 }
